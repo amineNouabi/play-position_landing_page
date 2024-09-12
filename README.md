@@ -29,13 +29,13 @@
 1. Clone this repositoy:
 
 ```bash
-git clone https://github.com/amineNouabi/play-position.git
+git clone https://github.com/amineNouabi/play-position_landing_page.git
 ```
 
 2. Go into project
 
 ```bash
-cd play-position/landing-page
+cd play-position_landing_page
 ```
 
 3. Install dependencies
