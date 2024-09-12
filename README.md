@@ -7,14 +7,15 @@
 - [x] Navbar
 - [x] Sidebar(mobile)
 - [x] Hero
-- [x] Sponsors
-- [x] Benefits
+  <!-- - [x] Sponsors -->
+  <!-- - [x] Benefits -->
 - [x] Features
-- [x] Testimonials
+<!-- - [x] Testimonials -->
 - [x] Team
-- [x] Pricing
-- [x] Frequently Asked Questions(FAQ)
-- [x] Services
+  <!-- - [x] Pricing -->
+  <!-- - [x] Frequently Asked Questions(FAQ) -->
+  <!-- - [x] Services -->
+- [x] About
 - [x] Footer
 
 ## Features
