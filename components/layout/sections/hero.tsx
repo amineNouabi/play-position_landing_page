@@ -1,8 +1,8 @@
-"use client";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-import { useTheme } from "next-themes";
-import Image from "next/image";
+'use client';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
+import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 export const HeroSection = () => {
   const { theme } = useTheme();
@@ -19,7 +19,7 @@ export const HeroSection = () => {
 
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
             <h1>
-              Find, join, and manage local  
+              Find, join, and manage local
               <span className="text-transparent px-2 bg-gradient-to-r from-foreground to-primary bg-clip-text">
                 soccer games
               </span>
@@ -32,7 +32,12 @@ export const HeroSection = () => {
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
+            <Button
+              onClick={() => {
+                window.location.href = 'https://play.nouabi.tech';
+              }}
+              className="w-5/6 md:w-1/4 font-bold group/arrow"
+            >
               Start Playing
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
@@ -59,9 +64,9 @@ export const HeroSection = () => {
             height={1600}
             className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
             src={
-              theme === "light"
-                ? "/hero-desktop-light.png"
-                : "/hero-desktop-dark.png"
+              theme === 'light'
+                ? '/hero-desktop-light.png'
+                : '/hero-desktop-dark.png'
             }
             alt="dashboard"
           />
