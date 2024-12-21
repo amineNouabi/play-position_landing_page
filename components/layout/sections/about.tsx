@@ -1,13 +1,3 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
-import { Icon } from '@/components/ui/icon';
-import Link from 'next/link';
-
 const TEAM_MEMBERS = [
   {
     name: 'Ahmed Amine Nouabi',
@@ -51,7 +41,7 @@ export const AboutSection = () => {
         world.
       </p>
 
-      <h3 className="md:w-1/2 mx-auto text-2xl text-center text-foreground mb-4 mt-10">
+      {/* <h3 className="md:w-1/2 mx-auto text-2xl text-center text-foreground mb-4 mt-10">
         Meet the Team
       </h3>
 
@@ -94,7 +84,7 @@ export const AboutSection = () => {
             </Card>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
