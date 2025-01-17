@@ -6,8 +6,14 @@ const TEAM_MEMBERS = [
     github: 'https://github.com/amineNouabi',
   },
   {
-    name: 'Youssef Acherki',
-    role: 'Full Stack Developer',
+    name: 'Souhail Housni',
+    role: '',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Omar Bakkali',
+    role: '',
     linkedin: '',
     github: '',
   },
